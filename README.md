@@ -1,4 +1,4 @@
-## PythonAirplaneDownloader
+## PythonAirplanePictures
 A python module that gets images from [airplane-pictures.net]
 
 Functions:
