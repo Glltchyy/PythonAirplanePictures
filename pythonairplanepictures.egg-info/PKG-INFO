@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pythonairplanepictures
-Version: 1.0.3
+Version: 2.0.0
 Summary: A module that gets images from airplane-pictures.net
 Author: Glltchyy
 License: MIT License
@@ -35,9 +35,12 @@ License-File: LICENSE
 ## PythonAirplanePictures
 A python module that gets images from [airplane-pictures.net]
 
+pip install pythonairplanepictures
+
 Functions:
-- getRandomPage(AmountOfPages, Download, PrintOutput) # Downloads a random page
-- getTopPages(AmountOfPages, Download, PrintOutput) # Downloads the top pages
+- getRandomImage(amountOfImages, download, printOutput) # Gets a random image
+- getRandomPage(AmountOfPages, Download, PrintOutput) # Gets a random page
+- getTopPages(AmountOfPages, Download, PrintOutput) # Gets the top pages
 
 Python dependicies used:
 - requests

@@ -4,8 +4,9 @@ A python module that gets images from [airplane-pictures.net]
 pip install pythonairplanepictures
 
 Functions:
-- getRandomPage(AmountOfPages, Download, PrintOutput) # Downloads a random page
-- getTopPages(AmountOfPages, Download, PrintOutput) # Downloads the top pages
+- getRandomImage(amountOfImages, download, printOutput) # Gets a random image
+- getRandomPage(AmountOfPages, Download, PrintOutput) # Gets a random page
+- getTopPages(AmountOfPages, Download, PrintOutput) # Gets the top pages
 
 Python dependicies used:
 - requests

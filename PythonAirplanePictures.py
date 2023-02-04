@@ -3,6 +3,17 @@ import random
 import re
 import os
 
+def getRandomImage(amountOfImages = 1, download = False, printOutput = True):
+    allitems = []
+    listOfImages = getRandomPage(amountOfImages // 50 + 1, download, printOutput)
+    for turn in range(1, amountOfImages + 1):
+        choise = random.choice(listOfImages)
+        allitems.append(choise)
+        listOfImages.remove(choise)
+    
+    return allitems
+
+
 def getRandomPage(amountOfPages = 1, download = False, printOutput = True):
     allitems = []
     if printOutput:
